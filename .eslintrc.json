@@ -1,0 +1,31 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true,
+        "jest/globals": true
+    },
+    "globals": {
+        "NodeJS": true
+      },
+    "plugins": ["jest", "@typescript-eslint"],
+    "extends": "standard",
+    "overrides": [
+    ],
+    "parser": "@typescript-eslint/parser",
+    "rules": {
+        "indent": ["warn", 4],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["warn", "single"],
+        "semi": ["error", "always"],
+        "no-console": 1,
+        "comma-dangle": [0],
+        "arrow-parens": [0],
+        "object-curly-spacing": ["warn", "always"],
+        "array-bracket-spacing": ["error", "always"],
+        "import/prefer-default-export": [0],
+        "space-before-function-paren": [0],
+        "space-infix-ops": [0],
+        "no-unused-vars": ["warn"]
+    }
+}
+
